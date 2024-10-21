@@ -5,7 +5,7 @@
     - using defaultdict - check char[i] in dict ? -> up left +1 : i + 1
     -Complexity: 
         +Time complexity : O(N);
-        +Space complexity : O(26)(characters in the english alpha)
+        +Space complexity : O(26)(characters in the english alpha) -> O(1)
 """
 
 
