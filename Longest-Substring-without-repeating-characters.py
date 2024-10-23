@@ -7,8 +7,7 @@
         +Time complexity : O(N);
         +Space complexity : O(26)(characters in the english alpha) -> O(1)
 """
-
-
+from collections import defaultdict
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         lastIndex = defaultdict(lambda : -1)
